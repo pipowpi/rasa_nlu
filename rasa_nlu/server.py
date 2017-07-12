@@ -5,6 +5,8 @@ from __future__ import absolute_import
 import argparse
 import logging
 import os
+import json
+
 from functools import wraps
 
 from flask import Flask
@@ -72,7 +74,19 @@ def create_app(config, component_builder=None):
             try:
                 data = current_app.data_router.extract(request_params)
                 response = current_app.data_router.parse(data)
-                return jsonify(response)
+                res = {
+                    'msg_id': '11231ssdsgsg',
+                    '_text': response["text"],
+                    'entities': {
+                        'intent': [
+                            {
+                                'confidence': response["intent"]["confidence"],
+                                'value': response["intent"]["name"]
+                            }
+                        ]
+                    }
+                }
+                return jsonify(res)
             except InvalidModelError as e:
                 return jsonify({"error": "{}".format(e)}), 404
 

@@ -1,6 +1,8 @@
 from setuptools import setup
 
 __version__ = None   # Avoids IDE errors, but actual version is read from version.py
+
+
 exec(open('rasa_nlu/version.py').read())
 
 tests_requires = [

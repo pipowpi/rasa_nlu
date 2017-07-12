@@ -1,0 +1,6657 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "good morning",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "how are you",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How's it going",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's new",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hello old friend",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Howdy",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hello sunshine",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Howdy-doody",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Ahoy matey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hiya",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's cooking good looking",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hello mate",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "great to see you again :)",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Bonjour",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hallo",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "greeting bot!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hullo :)",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Howdy-do ;)",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Yoo-hoo!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "cheers man!+",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "these are likeable",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "you saved my day",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "you are the best",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "These would do",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "thse should do",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "perfect",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "good job",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "I owe you big time",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "I love you",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Thankyou",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Thanks a lot",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "These are made just for me",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "these are okay",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "not bad",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "these look nice",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "simple the best",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "thanks buddy",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "you are my hero",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "thanks a ton",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "hi how are you, show me some white shirts",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hello show me some red shirts",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ]
+      },
+      
+      {
+        "text": "Hiya could you help me get beach shirts",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hello I want to buy you a black skirt",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "skirt",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hey there I am planning to get a denim jacket for myself",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 39,
+            "end": 45,
+            "value": "jacket",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "how are you buddy, I need black sneakers",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "sneakers",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "nice to see you again, I need some dress",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "dress",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hello dear! I wanted to look for some pants",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 38,
+            "end": 43,
+            "value": "pants",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hi there, do you have some skirts for party this weekend",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "skirts",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "good day mate! do you sell party wearing tops",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hello, show me some black shoes",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "HI there, help me with some stilettos",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "stilettos",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Morning mate! can you look for jeans",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "jeans",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "evening mate. can you suggest me some dark colored dresses",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 51,
+            "end": 58,
+            "value": "dresses",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hello dear! I wanted to look  for some shirts if you please",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 39,
+            "end": 45,
+            "value": "shirts",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Anybody there to help me out with some cotton jeans",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 46,
+            "end": 51,
+            "value": "jeans",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Good morning I want to buy  cronograph watch for my sister",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 39,
+            "end": 44,
+            "value": "watch",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hey great evening, help me with some formal suit please",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 44,
+            "end": 48,
+            "value": "suit",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Holla, I have been looking all around for a tops in green color, do you have any ?",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 44,
+            "end": 48,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Hey bot, I am looking for a red leggings for my black dress",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 54,
+            "end": 59,
+            "value": "dress",
+            "entity": "product"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "leggings",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "good day mate! ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hi dude, how are you",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Holla",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "yeah. nice to see you again ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "good to see you man",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hi there! ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How are you doing today ? ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey it's festival season, I am looking for some traditional dresses",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 48,
+            "end": 59,
+            "value": "traditional",
+            "entity": "dress"
+          }
+        ]
+      },
+      {
+        "text": "Hey it's Christmas eve and I am looking  forward to buy a sweater with a reindeer on it. Have any ?",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 58,
+            "end": 65,
+            "value": "sweater",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "what's going on ? Anything new ? ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hullo ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey there ! What's up ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hey there my fashion man",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey baby",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hey dude",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "how are you my man",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "heyya !",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Watcha doing ?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How are you buddy",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Nice to see you again",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Yo dude ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "yo bot ! What's up",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "great to see you again ! :D ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "TQ bot",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "These are really good. Can you show me more",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "you are the best ",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "you got some really good taste",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "These are great. Show me some black tops to go with to",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "these are superb, show me some shoes too",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I guess these are not bad, show me more",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "this looks my type, show me some trousers as well",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "trousers",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "something like this, also a pair of leather pants",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 44,
+            "end": 49,
+            "value": "pants",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "yes I like it, also some sunglasses",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "sunglasses",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Yeah, this would do",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "This would do along with a top",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "top",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "she is gonna love it, can you also pair it up with flats",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 51,
+            "end": 56,
+            "value": "flats",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I think this will go well with cropped tops, do you have any",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 39,
+            "end": 43,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "This gets my mood completely, show me some footwear too",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 43,
+            "end": 51,
+            "value": "footwear",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "This one is even better I also needed a dress for the upcoming party",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 40,
+            "end": 45,
+            "value": "dress",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "This one is even better",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "These are great. You are good",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "You are good. Show me more",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Hmm not bad, show me more",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "cool, I like these.",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Wow, those are good",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Ahaa, these are the ones I am looking for! Thanq",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Awesome man! ",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "How did you do that ! ",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "This is really fun. ",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Good bot",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "she is gonna love it, can you also show some matching jeans",
+        "intent": "appreciation",
+        "entities": [
+          {
+            "start": 54,
+            "end": 59,
+            "value": "jeans",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "not even remotely close to what I was looking for",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "thanks for not helping me",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "who wears them?",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "these are useless",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "had high hopes from you",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "these are bad",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These are dreadful",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These look so old fashioned",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "these are pathetic",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These look so third grade",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "OMG, these are too bad",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "hate u botcoturethe collections are not good enough",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "do u have something more reasonable",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "i didnt want all this",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Please spare me with all this crazy results",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Dont you have anything nice",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "I am getting confused with the things u are showing",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "All this is bullshit",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "i am disliking the items you are displaying",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "crappy items",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These are not worth my time. show me some good ones",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Don't show me these cheap suits",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are not so good",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are worthless",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You dumb bot! ",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Are you really dumb ? These are pathetic",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "I didn't like these. Show me some good ones",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Can't you show some good ones ? ",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These results are very bad",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are a hopeless bot",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Bye dear",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Bye botcouture",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "See you later",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "I am done",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "I can't do this anymore",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "talk to you later",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "seeya",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "bye then",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "It was nice talking to you, bye",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Thanks and bye",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "ciao for now",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Have a good night",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "I'll see you in a little bit",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "cya",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "cheers",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "best wishes",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "fare thee well",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "until next time",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "stay tuned",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "signing off",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "I don't like any of these, show me some biker jackets",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 46,
+            "end": 53,
+            "value": "jackets",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I don't like these, show me some some simple tops",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 45,
+            "end": 49,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "These are simply bad, show me some chinos",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "chinos",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "These look really cheap, I will look for some plain tees",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These don't look like partywear, would you be having some partywearing tops",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 71,
+            "end": 75,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "these look utterly unacceptable, show me some sweaters",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 46,
+            "end": 54,
+            "value": "sweaters",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I don't think I will go with any of these, do you have any formal suits",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 66,
+            "end": 71,
+            "value": "suits",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I don't like these skirts at all, just show me tops",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 47,
+            "end": 51,
+            "value": "tops",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "I absolutely hate it, do you have tshirt atleast",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "tshirt",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "nothing appeals to me...let me look at some jeans.",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 44,
+            "end": 49,
+            "value": "jeans",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "These look cold style. What's new in compacts?",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Not even close to what I am looking for",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "These are absolutely dull, display rings",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "rings",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "These look discouraging, show me some shorts",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "shorts",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Nah, not for me",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "They look boring, show me some pants instead",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "pants",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "Absolute worst, show me some loungewear",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "loungewear",
+            "entity": "product"
+          }
+        ]
+      },
+      {
+        "text": "these are the worst I have ever seen, do you have some boots",
+        "intent": "criticism",
+        "entities": [
+          {
+            "start": 55,
+            "end": 60,
+            "value": "boots",
+            "entity": "product" 
+          }
+        ]
+      },
+      {
+        "text": "Thanks man! Gotta take off",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Peace *out",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "Have a good day",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "I will be leaving then, bye",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "See you next time",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "very bad",
+        "intent":"criticism",
+        "entitities":[]
+      },
+      {
+        "text": "until we meet again",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "You are a savior",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "I love you",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "THis is beautiful",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "that was boss like",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "Wow, this is beyond my expectation",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "How stupid are you! ",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are helpless",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are a foolish bot",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Your selection is very poor",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You exceeded my expectations",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "You are doing good. show me more ",
+        "intent": "appreciation",
+        "entities": []
+      },
+      {
+        "text": "You are poor at this",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You are really dumb ",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "very bad",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "Dont show me something this bad",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text": "You worthless piece of Junk",
+        "intent": "criticism",
+        "entities": []
+      },
+      {
+        "text" : "Above 100 dollar",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Above 50$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Additional warranty ddd (ACP) or accidental coverage do you provide any?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "All this is bullshit",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Aloha",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Am i allowed to change my  Email Address details?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Am i allowed to change my payment details?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Am i allowed to change my username?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Am i permitted to modify the order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Amen",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Are reviews of a product i want to order available?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Are you people hiring?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Assist me in changing my Email Address",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Assist me in changing my delivery time",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Assist me in changing my payment details",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Assist me in changing my username",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Blessed be.",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Blue t-shirts for my nephew",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Bonjour",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Brief me about how to search for products you sell",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Bye Botcouture",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Call centre number required, help",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can I cancel my order anytime before delivery?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can I place cancellation request over call?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can I return a part of my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can I return or exchange a product by mail/ courier?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i apply fir this job if you are hiring?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i do live chat with u?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i get a  additional warranty ddd (ACP) or accidental coverage?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i get details of the return and refund policy",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i know whether the other missing itmes ship",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i not create an account and still place an order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i not purchase any product without creating an account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i return the product i bought and get a refund for it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can i track the shipping details of the product i ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can my employees avail discounts on shopping here?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can u please cancel my order i do not require it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you assist me with",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you give me details about Promotions ,offers and discount?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you give me details about the time of hiring?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you give me information about the time of hiring?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you give me the status of my backorder?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you guarantee the price of the products on sale?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you help me out as to find out where my order is as my tracking details says it has delivered but not.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you help me to find a store's phone number?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you help me with shirt",
+        "intent" : "Help",
+        "entities" : []
+      },
+      {
+        "text" : "Can you help me with the flow",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you please check why i cannot login to my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you please guide as to how to change the existing Email Address of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you please guide as to how to change the existing payment details of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you please guide as to how to change the existing username of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide discounts for my employees?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide information whether my order shipped or not?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide me steps as to how should i look for the items you sell?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide steps to change the Email Address of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide steps to change the delivery time?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide steps to change the payment details of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you provide steps to change the username of my account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you ship items ordered online abroad?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you tell me about the payment methods?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you tell me about the return/refund policy?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you tell me by when my order will arrive?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Can you tell me where can I submit a comment or complaint?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Cancel my order please ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Cheers",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Currently what is the status of hiring?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Damn, whats wrong with my logging credentials, i cannot login please help me",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Did my missing item ship?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do I have an option of canceling or modifying my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you allow exchanges?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have a skirt and matching top",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have an online flyer like the other e-commerce bot companies have?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have any plans to hire freshers now?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have brown boots in size 6 by clarks for my father?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have idea as to when my missing items will be shipped?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have options to ship internationaly?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have shipping facilities abroad?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have the details as to by when my item will arrive?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you have the status of my backorder?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you provide additional warranty ddd (ACP) or accidental coverage options?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you provide online flyer?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you provide options for chat?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you provide price match guarantee on products on sale?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you ship items ordered to a foreign country?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you ship items ordered to a foreign state?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you stock Wills Lifestyle shirts for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Do you stock brown jackets in size 16 for women?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Dont you have anything nice",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Failure in payment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Find a shoe that will match my red dress for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Folded hand emoji",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "G-shock is my go to brand",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Get me details about Promotions ,offers and discount ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Get me the details of shipping cost of the item i ordered.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Give me a brief of the return/refund policy",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Give me the details of the payment methods please",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Give me the status of my backorder",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Good noon ",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Good to see you",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Good work",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Gracias",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Greetings and salutations!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Greetings bot!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Guide me as to how to cancel/modify the order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Guide me to as to what products you sell",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Guide me with changing the delivery time",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Guidelines to exchange a defective purchase",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Guidelines to exchange the purchase",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "G’day mate!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hallo",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Has my order being shipped?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Hell man",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Hello, whos there, Im talking.",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me get a cool smart watch by apple for my brother",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me i cannot make payment for my order",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to cancel the product",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to find the helpline number of a store",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to know whether we can have a live chat or not?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to login",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to place an order without an account made",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to return the product",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me to track the shipping details",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me with the customer care number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me with the shipping details of the missing items i ordered",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Help me!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hey bot!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hey bud",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hey buddy",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hey there my fashion guru!!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hey, nice to see you!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hi dear",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hiya!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hola botcouture",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "How",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "How can I Track my order status?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can I cancel one/few products from my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can I contact customer care?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can I ever thank you enough",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "How can I find the things I've saved?",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text": "yuck",
+        "intnet" : "criticism",
+        "entities" : []
+      },
+      {
+        "text" : "How can I track the delivery of my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i avail the Promotions ,offers and discount?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i cancel a product i ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i contact the customer care agent and know the timings til when i can call?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i exchange my purchase as i do not like it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i exchange my purchase as i found it defective",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i return a product i ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can i submit a complaint or comment?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How can you gurantee the price of the products on sale?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I cancel an order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I check the current status of my orders?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I check the status of my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I checkout? ",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I return a product?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do I track my Order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How do i share this Product",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "How long will it take to process my cancellation request?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How long will the return process take?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How soon will the order arrive?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to cancel or modify my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to change my password as i forget my old password.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to change the Email Address?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to change the delivery time?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to change the payment details?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to change the username?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to do shopping here?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to get the phone number of the store?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to initiate a cancellation process?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to read a review of the product?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How to track shipping details of my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How will i cancel the product I ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How will i place an oder i forgot the password of my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "How will i return the product I ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Howdy!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Howdy-do ;)",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Hows the traffic there? "
+      },
+      {
+        "text" : "How can you help",
+        "intent" : "Personal",
+        "enitities" : []
+      },
+      {
+        "text" : "Hullo :)",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "I am done",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "I am facing problem in login",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I am going to propose to my girl and i need a beautiful women diamond ring urgently.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am gonna start working out, so i am gonna need some good sport bras",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am grateful that you are in my life",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I am indebted to you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I am looking for a blue shirt with matching trouser for my brother",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am looking for black shoes in size 6 for my daughter",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am looking for embroidered dungarees for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am looking for pearl earrings to go with my white dress for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am looking for shoes for my daughter",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am out of shirts for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I am out of words",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I am searching for the customer care number and i cant find it..can you help?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I am unable to login, look into the matter",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I am unable to pay for the order i placed as there is some problem in the payment page",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I am wondering for the perfect words to express my gratitude",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I broke my red clutch and I need a new one urgently",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I can count on you!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I cannot imagine myself without you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I cannot login to my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I did not get the order though i got a message that it was delivered, what will i do?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I do not remember the password for my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I don't have any designer wedges for party",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I don't know what to do",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "I dont like my order so i want to return it, please help me out",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I dont like the product i had placed order, how to cancel or modify it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I dont want the product anymore so i want to cancel it",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I forgot my old Email Address so how can i change it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I forgot my old useranme so how can i change it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I got a new shirt and I need trouser for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I hate them",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "I have a pair of black shoes and I want matching socks for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I have a presentation and I need a smart formal suit",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I have been thinking to buy a casual shirt for men for a long time",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I have heard Superkids got a new collection "
+      },
+      {
+        "text" : "I have no clue as to what my password was",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I have requested return/cancellation. When will I get it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I look good in red dress",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I love all the Macy's ones.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I love to shop with you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I love you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I need a red jumpsuit and black stilettos to go with it for my mother",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I need additional warranty ddd (ACP) or accidental coverage, do you have options for it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need assistance from the customer care agent as i want to return the item i ordered",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need details about the return/refund policy.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need help regarding my order so i want the customer support number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need nice shoes and socks also for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I need some new handbags for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I need some shoes for my daughter. It's her sweet sixteen birthday next month.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I need the store's number..help me please",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need to buy a pair of peep toes but only under 1000$ for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I need to cancel the order, help me",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need to contact customer centre",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need to request for a return",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need to return a product i had purchased earlier so i wanna know about the return and refund policy",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I need top"
+      },
+      {
+        "text" : "I need winter jackets under 100$ in medium size for my daughter",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I needed the status of my backorder",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I require an exchange of the product i ordered online",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I require an exchange of the product i ordered online beacause it has defects",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I require the customer care number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I require the stores number, how to find it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I still did not receive my order, i want to complain ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I thank you from the bottom of my heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I think Ill go with  this one",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "I used my tracking number to check the details of my shipment but the information is not clear to me.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I wanna buy a t-shirt in the color green for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I wanna do a live chat with u, how to do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I wanna know the shipment charges of the items ordered here.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I wanna read reviews help me to do so",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want  additional warranty ddd (ACP) or accidental coverage? Can i?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want a chronograph watch"
+      },
+      {
+        "text" : "I want a pair of jeans for my niece",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want a pair of jeans for my niece below 1500$ by forever21",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want a t-shirt and a matching jeans for my father",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want above 30$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want an idea about the shipping cost",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want an online flyer about your e-commerce bot, do you have any?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want black kitten heels",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want details as to till when should i expect the delivery of my purchase",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want details as to where to write a complaint or comment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want details of the shipment of the missing items.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want discounts for my employees, how can i do that?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want idea about the Promotions ,offers and discount you provide",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want information about the return/refund policy.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want items to be shipped internationally, can you do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want nothing but Calvin klein ones",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want ones that are less than 50 dollars.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want payment method details ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want price match guarantee on products on sale, how will you assure it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want read  review of the product, how can i do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want the cancellation of the product",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want the status of my backorder",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to buy a yellow ruffles top for my sister in size m below 2000$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to cancel an order. What is the process?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to change my delivery time how should i proceed?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to change my old Email Address help me to do it",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to change my old payment details help me to do it",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to change my old username help me to do it",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to exchange a defective item, how to do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to exchange my order, how to do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to get an idea of the products you sell, do you have flyer for that?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to gift my grandfather a blue suit for his birthday",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to go through the reviews given by other customers about a product",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to know did my order ship?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to know whether you ship internationally or not?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to look for the items you sell in the bot",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to order something without creating an account, can i do it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to pen down a comment..help me",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to raise the complain of my undelivered item.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to return my purchase",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to see larger images",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to submit a comment or complain assisstance required.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to talk to the customer care agent as i cannot login to my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to talk to the customer care agent so give me the number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to try ruffles tops for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I want to write a complain where i will i get an option?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I was thinking of buying a digital watch as i will be running a marathon soon",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I wasn't able to complete my order payment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I will be attending an inauguration party of a club this weekend and I need some chinos for men, preferably by Tommy Hilfiger.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I will be happy if you can provide me the delivery date?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I will complain against you, the order has still not arrived",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I will complain to the higher authorities as i have not received the item",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I would like it in Kalt",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I would prefer it in white only.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I'd rather die than wear this",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "I'l be happy if you can let me know how much is the shipping cost",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "I'm interested in black ones only",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "I'm shopping for a top, can you show some latest designs",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "If anyone deserves thanks, its you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "If i do not receive my order within a week, i am gonna lodge a complain",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Il suggest my friends not to shop from here, you sell pathetic stuffs",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Im getting confused with the things u are showing",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Is  additional warranty ddd (ACP) or accidental coverage option available if shopping in the bot?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Is a modification of the product ordered allowed?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Is creating an account mandatory to place order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Is it possible to place order without an account?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Is live chat possible?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Is there any vacancy in your comapany so i can apply?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "It should be more than 1000 $.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "It will be better if you give me an online flyer, can you?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "It will be great if you provide shipping facilities internationally",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "It will be helpful for me to do shopping if you can give me the link of yours online flyer",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Its being so long i didnot get any updates on the delivery, i will report this issue",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "It’s been a while,yo!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "I’m incredibly thankful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Jeanie you there?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Keep it up!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Live chat is needed so i can discuss the issues i am having while shopping, do you have options for it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Login failure",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Login issues",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Long time no see!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Many thanks, BotCouture",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "May i know what is the shipping charges?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Modification of the order I placed is required, can you assist me please?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Much love",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "My brother needs a pair of good sports shoes",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "My daughter is insisting on a pair of running shoes",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "My order is not yet delivered, what should I do.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "My order not delivered alothough my tracking says it is, so how to solve this issue?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "My password is forgotton",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "My product is defective. I want to return it. Can I ? ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "My son is asking for a winter coat for his birthday",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "My tracking gives wrong details about my order been aldready delivered and it is not, what to do next?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "My wife needs a sling bag urgently",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Need Discounts and offers for my employees",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Nodilemma tshirts for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Not able to login into my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Not good at all",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "OMG! these are beautiful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "OMG, these are too bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Please cancel the order i had placed",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please change the delivery time",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please dont show me all this stupid results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Please give me the date of the delivery",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please help me getting discounts for my employees",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please help me in finding customer care number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please help me to exchange my order",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please help me to exchange my order which was defective",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please inform me as to if other missing items shipped or not.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please provide me information about the payment methods you support",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please provide me the help line number",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Please spare me with all this crazy results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Please tell me about the products you sell",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Promotions ,offers and discount, i want information about these",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Provide me the status of my backorder",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "R u mad cant u show me relevant products",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Shipping details needed for the item purchased",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Shit! i forgot my password",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Shit,I cannot login to my account",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Show me in black above 20$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "Sincerest gratitude",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Sincerest thanks for all your dedication and hard work",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Stop showing me all this ",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Sup?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Ta ta!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Tell me how to cancel my purchase?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Tell me how to return my purchase?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Tell me whom shall i report for the product not delivered yet?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Thank you so much and remain blessed",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Thanks for always helping out",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Thanks for being so thoughtful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Thanks.. gotta jet now",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "The cards i used to use for shopping online expired so how can i change it?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "The colour and and size of the product delivered is not correct so want an exchange",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "The order i placed has it shipped?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "The product delivered was damaged so i want an exchange as soon as possible",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "The product delivered was damaged so i want to return it",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "The state and package of the product delivered is not proper so want an exchange",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "There is some issue i am unable to login",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "There is some issue in the payment page please check once",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "These are so pretty",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "These aren't working for me",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "This means a lot to me",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Top of the mornin’ to ya!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Wanna know when my oder will arrive?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Want to chat live with u, guide me",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Wassup",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Whaddup",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "What am I supposed to do now?",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "What am i supposed to do as my tracking details says the order is delivered but it is not",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the cancellation timelines?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the charges for shipping?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the charges of shipping?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the different payment options you people provide for the products you sell?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the processes to cancel an order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the processes to intitate the exchange of defective item i ordered? ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the processes to intitate the exchange of the item I ordered?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What are the processes to intitate the exchange of the item I ordered? ",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What exciting offers can you provide to my employees?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is  30 day Return and Exchange Policy? How does it work?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is 30 day Return and Exchange Policy? How does it work?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is customer centre number?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is the delivery date of my order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is the exchange process & how soon can I expect the exchanged product?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is the gurantee of the price of the products on sale?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is the helpline number where i can talk to the agent and tell the issues?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What is your Cancellation Policy?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What offers can my employees avail?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What products do you sell and how will i search them?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What should i do i have no idea what my password was?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What would I do without you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Whats the number where i can speak to the customer support agent?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Whats wrong with my account, i can't login, help me out",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "What’s cracking?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "What’s going on, anything new?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "What’s new?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Whazzup?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "When and how can I cancel an order?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "When will my order ship?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "When will you hire new faces?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Where am i supposed to write about the greivances or comments i have.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Where are the options to change the delivery time?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Where can i find the details about the Promotions ,offers and discount you offer?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Where can i get review options about a product?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Where is my delivery.. i am gonna seriously complain against this company.",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Whom am I talking to? ",
+        "intent" : "Personal",
+        "enitities" : []
+      },
+      {
+        "text" : "Why Can't I Log In?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Why can't I checkout here?",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "Why can't I log In?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Why, hello there!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "Will make sure to complain against you as my order still remains undelivered",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Will u guide me with the processes to cancel the item purchased?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Will u guide me with the processes to request for a return of the item purchased?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "Words just can’t describe how much you are appreciated",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "XOXO",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "Yoo-hoo!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "You are incredible",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You cleared my confusion!!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You did an excellent job",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You did it! Great job.",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You do make a difference",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You get my style bud. Thanks",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You got me out of a big dilemma",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You have done a fantastic job ",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You have no idea what",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You know who this is.",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "You must have read my mind, because it is exactly what I wanted",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You provide me the best options",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You so understand me",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You were of no help to me",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "Your attention to detail puts you at the top",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "Youve been very helpful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "You’re the best",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "a peacoat for my mother please",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "adios",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "adios!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "all right then",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "all the results are yuck",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "amazing",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "an XL black trouser for women below 60$ from Evans is what i am looking for.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "anger",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "anguished",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "anybody there",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "anyone who can help me",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "awesome",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "awesome collections",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "awful",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "bad ones",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "bad results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "bad shirts",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "beach vacation coming up,need women's cargo shorts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "beers",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "black jeans for my brother in size 32",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "black looks best",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "bless you",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "blue heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "blush",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "bomb",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "bon voyage",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "broken heart",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "buh-bye",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "burn in hell",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "by Puma look good",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "bye bye",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "bye dear",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "bye!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "can i see a skirt"
+      },
+      {
+        "text" : "can i see suits? I want to gift it to my mother"
+      },
+      {
+        "text" : "can u help",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "can you get me tops?"
+      },
+      {
+        "text" : "can you help me",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "cancel order",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "caps for my father below 100$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "catch up with ya later",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "catch you later",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "cheers",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "cheers man!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "chiffon scarves for my girlfriend",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "christmas tree",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "ciao for now",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "ciao!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "city sunrise",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "city sunset",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "clap",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "come up with some Levi's jeans for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "confounded",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "confused",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "could you suggest me some boho tops for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "crappy items",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "crappy results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "crescent moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "cropped jeans for my sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "cry",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "crying cat face",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "cupid",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "denim capris to gift my brother",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "did you not get what i asked for",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "dint expect this from u",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "disappointed",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "disappointed relieved",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "disgusting",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "dishearten",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "do churidaars suit men? want to check so show me some",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do i have a choice",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "do u have something more reasonable",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have cat eye sunglasses for women?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have chinos for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have dresses under 5000$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have it in cotton"
+      },
+      {
+        "text" : "do you have shirts with three fourth sleeves for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have skorts?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you have women's shirts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you keep windbreakers for women between 1000-1500 bucks?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "do you ponchos for a 1000 bucks?",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "dont make me kill you",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "dont you have something better",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "end",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "end transmission",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "evening",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "expressionless",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "facing issues in payment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "farewell bot",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "fearful",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "fireworks",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "first quarter moon with face",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "floral tops for daughter",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "forget",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "fringed skirts for the weekend outing",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "frowning",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "full moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "full moon with face",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "gift heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "go to hell",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "god the products are too expensive",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "godspeed",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "good afternoon",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "good bye",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "good bye, buddy!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "good evening",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "good for nothing",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "good job",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "good luck to you! bye bye!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "good night",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "got to go!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "got to roll thanks ",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "great",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "great to see you again :)",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "green heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "grey question",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "grimacing",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "grin",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "gtg",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "gun",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "half sleeves shirts for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "hammer",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "hate",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "hate the results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "hate u botcotour",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "have a good night",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "have to buy a smart jeans for my girlfriend",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "headband"
+      },
+      {
+        "text" : "heart decoration",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "heart eyes cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "heartbeat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "heartpulse",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "hello!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "hello..anyone there??",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "heya..",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "hi",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "hi :)",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "hi...whatsupp",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "hola.",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "how are you?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "how goes it?",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "how long will my order take to arrive ?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "hugs and kisses",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "hushed",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i  am not convinced",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i am a women and want to buy a pair of slim fit jeans in black,size 28",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i am confused about my size, i want to cancel",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "i am disliking the items you are displaying",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i am facing issue while payment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "i am flying to Miami for the first time and i am super excited, i need some cool looking bikinis.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i am hating whatever u are showing me",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i am least interested in this product",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i am looking for a chemise",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i am not liking it",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i cant afford these products ",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i could go for something better",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i didnt want all this",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like it",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like the colour",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like the shirt",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like these",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like these results",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont like these results at all",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont want my order",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont want these",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i dont want to choose",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i had asked for something else",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i have a wish that my father wears a sherwani in my marriage rather than his regular formal wear",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i like it",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "i need a cloche hat for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i need heels"
+      },
+      {
+        "text" : "i need help",
+        "intent" : "Help",
+        "enitities" : []
+      },
+      {
+        "text" : "i need shoes"
+      },
+      {
+        "text" : "i need tracksuit for men in size 40 to start training for a marathon.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i prefer something else",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "i should be going",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "i think anarkalis will suit my plump sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want a medium size underwear for my sister above 100 dollars",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want a ring by precious moments in size 4 to propose my girlfriend.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want from levis",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want from michael kors",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want some cute key chains",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want some evening dresses",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want the tracking details of the item i ordered",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to buy jeggings that wont cost me more than a thousand bucks",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to gift kurta sets to all the guests who have gents in my sister's marriage",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to gift round sunglasses to my girlfriend",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to know about return and refund policy",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to make my mother-in-law to try some kurtas",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "i want to track my order",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "ill see you in a little bit",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "im not sure if i like  this",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "im out!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "interested in chronopgraph watch"
+      },
+      {
+        "text" : "is there any other way you can help me out",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "is this all you have",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "it could have been better",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "it is good",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "it should be below 1000$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "it should be in red",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "it sucks",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "its better i shop from somewhere else",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "its not my style",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "its winter and my mom needs a pair of crew socks",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "jeans for girls from Vero Moda",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "jeans for my brother",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "joy cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "just blouses please",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "just the ones by calvin klien "
+      },
+      {
+        "text" : "just what i was looking for",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kiss",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kissing",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kissing cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kissing closed eyes",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kissing heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "kissing smiling eyes",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "knife",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "last quarter moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "last quarter moon with face",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "laters",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "lets get started!",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "like this shirt",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "live chat with you",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "looking for a blue shawl for my grandmother above 500",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "looking for a top",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "looking for shift dresses for myself",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "looking forward",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "looks good. thanks",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "looks okay, but ill pass",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "looks okay, but no",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "loop earrings",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "love this shirts",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "love you botcoutour",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "love you forever",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "lovely dress",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "mask",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "mindblowing selections",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "my boyfriend looks smart in polariod sunglasses",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my brother loves wearing hoodies, show in gray in size L",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my brother wants a stylish biker jacket",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my brother wants shaving cream",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my choice is much better than this",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "my father wants striped polo t-shirts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my friend's birthday is coming up, want to buy a dress for her from Vero Moda",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my grandmom needs a pair of pants",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my nephew needs bermuda shorts in",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my sister wants metal strap watches",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "my younger brother wants into graphic t-shirts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "naah!",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "need mang tikkas to complete my hair do",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "negative squared cross mark",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "neutral face",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "new moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "new moon with face",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "nice",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "niece needs skinny jeans",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "night with stars",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "night.",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "no entry",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "no good",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "no it doesnt look good",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "no mouth",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "no thats bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "no. not these",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "nope",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "not bad",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "not good",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not loving it",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not my type",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not really fond of it",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not that bad",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "not this something else",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not this, thanks anyway",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not what i asked for",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not what i expected",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not what i needed",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not what i wanted",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "not what i was looking for",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "ok hand",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "ok woman",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "open hands",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "open mouth",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "order not completed because of problem in payment",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "pants for my grandmom",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "payment fail in between",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "payment failed",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "payment interrupt in between",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "payment is not successful",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "payment unsuccessful",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "peace out (victory emoticon)",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "pencil skirts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "pensive",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "perfetto!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "persevere",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "person frowning",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "person with pouting face",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "plaid short sleeved mens' shirts",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "poor",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "pouting cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "pray",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "pullover for younger sister",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "punch",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "purple heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "question",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "raised hand",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "raising hand",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "really appreciate",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "red is what I have in mind",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "relieved",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "revolving hearts",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "saree clip",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "satisfied",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "scream",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "scream cat",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "see ya bud",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "see ya on the flip side",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "see you around",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "see you later, aligator!",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "see you next time",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "shapewear below 2000$ please",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "she just loves white",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "shirts for men above 1000 dollars",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "shoes by Puma for her",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "shoes for my grandma"
+      },
+      {
+        "text" : "show me all the shampoos that you have under 1000 bucks",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me black dresses in XS from phase eight for my sister under 700$",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me ethnic brooches of latest designs to wear on my chiffon saree",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me in red",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me in red for a change",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me jeans and shirts for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me slim fit type",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me some beach shirts for my husband",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me some beach shorts for my boyfriend",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me some pants"
+      },
+      {
+        "text" : "show me some shoes by Puma for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me some skirt suits",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me striped sweaters for gents",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me the cold shoulder style dresses",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show me the latest collection of rompers",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show some tank tops for women",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show some tank tops for women in black color in size M",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "show some tuxedos for men",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "simply perfect",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "skirts by Being Fab",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "sleeping",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "sleepy",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "smile",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "smile cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "smiley",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "smiley cat",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "soooo crappy",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "sorry, but it wont work",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "sparkling heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "spellbound",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "spot you later",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "star2",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "stars",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "stay happy",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "straight fit jeans with 36 waist size for my husband",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "stuck out tongue",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "stuck out tongue closed eyes",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "stuck out tongue winking eye",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "suggest women's beige trousers for office for 1000$ in size 36",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "sun with face",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "sunrise",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "sunrise over mountains",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "superb",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "support for live chat",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "sweat",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "sweat smile",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "take care",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "taking your leave then",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "talk to you soon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "thank you for your help",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "thank you so much see ya later!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "thanks a ton",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "thanks anyways",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "thanks man! gotta take off",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "that shirt looks awesome",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "that shirt looks good",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "that was boss like",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "thats not right product",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "thats not the same thing at all",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "thats really nice",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "the brand prefered is Nicole Miller",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "the collections are not good enough",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "the color code for my upcoming office party is red, need a dress urgently.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "the size needed is 34",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "these are awesome",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "these are awful",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "these are interesting",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "these are just perfect",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "these are really cool",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "these are very plain",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "these results are bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "these results are really bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this dress is too expensive",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this has left me spellbound",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is awesome",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is bad",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is beautiful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is best",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is beyond my liking",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is cool",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is disappointing",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is great",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is hell",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is helll",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is irrelevant",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is made for me",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is not as bad as i thought",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is not what i wanted",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this is second time my order not delivered on time",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "this is simply  the best",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is so cool!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is so wonderful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is the best I love you",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is the best of all",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is the best suggestion",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this is what i was looking for",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this looks good to me",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this shirt is good",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this shirt is too striped",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this shirt is very expensive",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this shirt is very long",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "this shirt is very nice",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this shirt looks good",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this was  helpful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "this was not at all helpful",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "thought balloon",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "thumbsdown",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "thumbsup",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "tired face",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "triumph",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "ttyl",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "two hearts",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "u dont have good collections",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "u need to learn more about fashion",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "until ..(next week/month)",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "until we meet again",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "useless to shop here",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "waning crescent moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "waning gibbous moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "wanna try harem pants on my son, color green and size s",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "want some abayas",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "want to buy Slim Fit Check Shirt for him.",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "waxing crescent moon",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "weary",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "well done",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "what are the payment modes for online shopping you provide?",
+        "intent" : "customer_support",
+        "enitities" : []
+      },
+      {
+        "text" : "what do you do",
+        "intent" : "Personal",
+        "enitities" : []
+      },
+      {
+        "text" : "what is your name",
+        "intent" : "Personal",
+        "enitities" : []
+      },
+      {
+        "text" : "whats up",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "white check mark",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "who are you",
+        "intent" : "Personal",
+        "enitities" : []
+      },
+      {
+        "text" : "wink",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "women's booties please",
+        "intent" : "no_intent",
+        "enitities" : []
+      },
+      {
+        "text" : "wonderful",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "worried",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "worst",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "worst i ever came across",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "wow",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "wow this is beyond my expectation",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "wow!",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "x",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "yellow heart",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are definitely improving",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are my fashion guru",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are my fashion saviour :)",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are my only answer  to every fashion thing",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are not helping",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you are not worth my time",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you are the best fashion advisor",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are time saver",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are too good",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you are useless",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you are worthless",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you didnt meet my expectations",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you have bad taste",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "you have left me speechless",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you made my day",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you nailed it",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "you saved my time",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "yuck",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "yuck, i hate these ",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "yum",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "☀",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "☝",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "☺",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "♥",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "⛔",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "✅",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "✋",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "✌",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "✔",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "✖",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "❌",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "❎",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "❓",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "❔",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "❤",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🌃",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌄",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "🌅",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "🌆",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌇",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "🌑",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌒",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌕",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌖",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌗",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌘",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌙",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌚",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌛",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌜",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌝",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🌞",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🌟",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🌠",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🍻",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "🎄",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "🎆",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "👌",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "👍",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "👎",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "👏",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "👐",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "💋",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💓",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💔",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "💕",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💖",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💗",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💘",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "💙",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💚",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💛",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💜",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💝",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💞",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💟",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "💢",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "💣",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "💭",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "💯",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🔚",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🔨",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🔪",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🔫",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😁",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😃",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😄",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😅",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😆",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😊",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😋",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😌",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😐",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😑",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😓",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😔",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😕",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😖",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😗",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😙",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😛",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😜",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😞",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😟",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😢",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😣",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😤",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😥",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😦",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😧",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😨",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😩",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😪",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😫",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😬",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😮",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😯",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😱",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😴",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😶",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😷",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "😸",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😹",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😺",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😻",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😽",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😾",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "😿",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🙀",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🙅",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🙆",
+        "intent" : "end",
+        "enitities" : []
+      },
+      {
+        "text" : "🙇",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🙍",
+        "intent" : "criticism",
+        "enitities" : []
+      },
+      {
+        "text" : "🙎",
+        "intent" : "appreciation",
+        "entities" : []
+      },
+      {
+        "text" : "🙏",
+        "intent" : "greeting",
+        "enitities" : []
+      },
+      {
+        "text" : "���",
+        "intent" : "appreciation",
+        "entities" : []
+      }
+    ]
+  }
+}
